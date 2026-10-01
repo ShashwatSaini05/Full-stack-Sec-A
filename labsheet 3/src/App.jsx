@@ -35,7 +35,7 @@ function AddTaskForm({ onAddTask }) {
         onKeyDown={handleKeyDown}
         placeholder="Enter a task..."
       />
-      <button onClick={handleSubmit}>Add Task</button>
+      <button onClick={handleSubmit}>Add Your Task</button>
       {error && <p className="error-message">Please enter a task before adding it.</p>}
     </div>
   )
